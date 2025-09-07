@@ -8,7 +8,7 @@
         {
             rates = new()
             {
-                {(Currency.USD, Currency.BRL), 5.45m},
+                {(Currency.USD, Currency.BRL), 5.39m},
                 {(Currency.BRL, Currency.USD), 0.18m},
                 {(Currency.EUR, Currency.USD), 1.10m},
                 {(Currency.CAD, Currency.USD), 1.35m},

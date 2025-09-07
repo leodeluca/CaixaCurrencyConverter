@@ -1,6 +1,6 @@
 ﻿namespace CurrencyConverter
 {
-    public interface ICurrencyConverter
+    public interface ICurrencyConvert
     {
         Money Convert(Money from, Currency to);
     }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CurrencyConverter
 {
-    public class CurrencyConverter : ICurrencyConverter
+    public class CurrencyConvert : ICurrencyConvert
     {
         private readonly IRateProvider rateProvider;
 
-        public CurrencyConverter(IRateProvider rateProvider)
+        public CurrencyConvert(IRateProvider rateProvider)
             => this.rateProvider = rateProvider;
 
         public Money Convert(Money from, Currency to)
